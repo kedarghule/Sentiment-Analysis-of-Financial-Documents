@@ -20,5 +20,7 @@ To analyze the sentiment expressed in the financial documents, two different app
 ## Sentiment Analysis
 The state-of-the-art sentiment analysis model called FinBERT, provided by the HuggingFace transformers library, is utilized. This pretrained model is specifically designed for financial sentiment analysis on corporate documents. It assigns sentiment labels (positive, negative, or neutral) to each document, enabling a more accurate understanding of the sentiment expressed in the financial reports. This is utilized to find the sentiment of the 10-K filings of each company. The inference process is sped up using multiprocessing.
 
+The results showed that most documents were classified as neutral.
+
 ## Conclusion
 By leveraging a data pipeline to collect, clean, preprocess, and analyze financial documents, this project enables sentiment analysis of companies in the DOW JONES index. The combination of traditional methods like Bag of Words and TF-IDF with the advanced FinBERT model allows for a comprehensive understanding of the sentiment expressed in these documents over time. The insights gained from this analysis can assist investors, analysts, and financial institutions in making informed decisions based on the sentiment of financial reports.
